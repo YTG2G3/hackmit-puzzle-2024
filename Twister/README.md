@@ -1,0 +1,3 @@
+# Twister
+
+This is the last puzzle I solved. Since there is no way to brute force the answer, I had to manually solve the puzzle. I didn't have any prior knowledge of binary exploitation, so I had to learn the basics of binary exploitation to solve this puzzle. It took me around 3 weeks to solve this puzzle. The solution was to leak the canary, leak libc, and then overwrite the return address to `system` in libc using pwntools.
